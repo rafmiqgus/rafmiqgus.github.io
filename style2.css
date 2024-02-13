@@ -1,0 +1,122 @@
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container h1 {
+  z-index: -1;
+  font-size: 9vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.image-container {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50vw;
+}
+
+.image-container2 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+}
+
+.image-container img,
+.image-container2 img {
+  height: 100vh;
+  position: absolute;
+}
+
+.image-container img:nth-child(2),
+.image-container2 img:nth-child(2) {
+  top: -100vh;
+  z-index: 2;
+}
+
+.image-alice-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#alice1 {
+  position: absolute;
+  height: 35%;
+  width: auto;
+  left: 43%;
+  top: 60%;
+  transform: rotate(10deg);
+}
+
+#alice2{
+  position: absolute;
+  height: 35%;
+  width: auto;
+  left: 70%;
+  top: 60%;
+  transform: rotate(-7deg);
+}
+
+#alice3 {
+  position: absolute;
+  height: 25%;
+  left: 30%;
+  top: 10%;
+  transform: rotate(-10deg);
+}
+
+#alice4 {
+  position: absolute;
+  height: 25%;
+  left: 52%;
+  top: 10%;
+  transform: rotate(10deg);
+}
+
+#alice5{
+  position: absolute;
+  height: 35%;
+  left: 15%;
+  top: 60%;
+  transform: rotate(-10deg);
+}
+
+#rose1{
+  position: absolute;
+  width: 25%;
+  left: 0;
+  top: 0;
+}
+
+#rose2{
+  position: absolute;
+  width: 25%;
+  right: 0;
+  top: 0;
+  transform: scaleX(-1);
+}
